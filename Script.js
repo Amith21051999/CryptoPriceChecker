@@ -1,4 +1,4 @@
-﻿// Function to fetch and display the list of cryptocurrencies
+﻿// Function to fetch and display the list of cryptocurrencies a
 function fetchCryptoList() {
     const apiUrl = 'https://api.coingecko.com/api/v3/coins/list';
 
