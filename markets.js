@@ -1,4 +1,4 @@
-﻿// Function to show the selected chart and hide others
+﻿// Function to show the selected chart and hide others a
 function showChart(chartId) {
     const allChartContainers = [
         'priceChangeChartContainer',
