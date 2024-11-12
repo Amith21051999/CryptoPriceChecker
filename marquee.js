@@ -9,7 +9,7 @@
                 return `<span>${crypto.name}: $${crypto.current_price.toFixed(2)}</span>`;
             }).join(''); // No separator here, only items with padding
 
-            // Duplicate the content to make it loop seamlessly
+            // Duplicate the content to make it loop seamlessly a
             const marqueeContent = `<span>${marqueeItems} ${marqueeItems}</span>`;
 
             document.getElementById('crypto-marquee').innerHTML = marqueeContent;
