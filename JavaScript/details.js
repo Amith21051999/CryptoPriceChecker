@@ -1,4 +1,4 @@
-﻿// Function to get query parameters from the URL a
+﻿// Function to get query parameters from the URL a a
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
